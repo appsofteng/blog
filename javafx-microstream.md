@@ -37,7 +37,7 @@ It is possible to use various technologies implemented by frameworks or librarie
 |                                     | Possible to use references with special methods and annotations | Requires using annotations and special methods                         |
 |                                     | Can be used with fields and getters and setters                 |                                                                        |
 |                                     | Calls the default constructor                                   |                                                                        |
-| JSON (JSON-B, GSON)                 | Like XML but without annotations                                | Like XML but more difficult to manage ciscular references.             |
+| JSON (JSON-B, GSON)                 | Like XML but without annotations                                | Like XML but more difficult to manage circular references.             |
 |                                     |                                                                 | Some JSON libraries uses only fields and not getters and setters       |
 | NOSQL (JSON documents)              | Relatively lightweight                                          | JSON documents are not very good to manage object references.          |
 |                                     | Can be used with getters and setters                                 |                                                                        |
